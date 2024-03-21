@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #fff;
+  font-size: 2rem;
+  background-color: #2a3138;
+}
+
+/* Logo */
+.logo-img {
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+.navbar {
+  /* background-color: #2a3138; */
+  background-color: rgba(13, 17, 23, 0.884);
+}
+
+.navbar-nav .active {
+  color: #fff !important;
+}
+
+.nav-linls {
+  list-style: none;
+  font-size: 1.1rem;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0;
+}
+
+.link-nav:link,
+.link-nav:visited {
+  display: inline !important;
+  color: #fff !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+
+  padding: 0.5rem 1rem;
+}
+
+.link-nav:hover {
+  font-size: 1.5rem;
+  border-bottom: 1px solid #3fb950;
+}
+
+.navbar-toggler-icon {
+  background-color: rgba(255, 255, 255, 0.74);
+}
+
+/* HERO SECTION */
+.heading-primary {
+  font-size: 5rem;
+  font-weight: 300;
+}
+
+.hero-cont--2 {
+  display: none;
+}
+
+.hero-section--content {
+  color: rgba(255, 255, 255, 0.623);
+}
+
+.hero-sect--text {
+  color: #fff;
+}
+
+.btn-customised {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #3fb950;
+  padding: 0.7rem 3rem !important;
+}
+
+.btn-signUpTeam {
+  padding: 1rem 2rem;
+  outline: 0.5px solid #808080;
+}
+
+/* TEAM SECTION */
+
+.team-section__h3 {
+  font-weight: 400;
+}
+
+.link-primary--custom {
+  font-weight: 500;
+  text-decoration: none;
+}
