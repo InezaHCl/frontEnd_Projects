@@ -18,6 +18,7 @@
   --fontSize: 2.5rem;
 
   --mbContainer: 2rem;
+  --mbSection: 5rem;
 }
 
 html {
@@ -43,11 +44,8 @@ body {
   background-color: #fff;
 }
 
-.bars-btn {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 2.5rem !important;
+.main-btn {
+  font-size: 2rem !important;
   margin: 2rem;
   padding: 0.5rem 1rem;
   color: var(--whiteColor);
@@ -55,6 +53,15 @@ body {
   border-radius: 50%;
   cursor: pointer;
   z-index: 2;
+}
+
+.bars-btn {
+  top: -13px;
+  right: 0;
+}
+.btnUp-btn {
+  bottom: 2%;
+  right: 0;
 }
 
 .x-btn {
@@ -150,6 +157,7 @@ h1 {
 
   background-position: top center;
   background-size: cover;
+  margin-bottom: var(--mbSection);
 }
 
 .hero-container {
@@ -171,3 +179,29 @@ h1 {
   font-size: var(--fontSize);
   color: var(--whiteColor);
 }
+
+/*********************/
+/* ABOUT SECTION */
+/*********************/
+
+#about {
+  padding-top: 2rem;
+}
+
+.about__heading {
+  display: inline-block;
+  font-size: 3rem;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+
+  border-bottom: 2px solid var(--secondaryColor-light);
+}
+
+.abContainer__descr {
+  margin-bottom: 3rem;
+}
+
+/* .image-style {
+  height: 100%;
+  width: 100%;
+} */

@@ -120,7 +120,7 @@
                 >
               </li>
               <li>
-                <a href="#" class="nav-link"
+                <a href="#about" class="nav-link"
                   ><i class="fa fa-user nav-icon me-1" aria-hidden="true"></i>
                   About</a
                 >
@@ -167,21 +167,28 @@
 
     </header>
 
+
     <main class="container-fuild text-center vh-100">
+
+      <a
+      class="btn btn-link  bars-btn position-fixed"
+      data-bs-toggle="offcanvas"
+      href="#offcanvasExample"
+      data-bs-target="#offcanvasResponsive"
+      aria-controls="offcanvasResponsive"
+      role="button"
+      aria-controls="offcanvasExample"
+      >
+      <i class="fa fa-bars main-btn bars-btn" aria-hidden="true"></i>
+         </a>
+
+         <a href="#home" class="main-btn btnUp-btn position-fixed">
+           <i class="fa fa-arrow-up" aria-hidden="true"></i>
+         </a>
 
           <!-- ===== Home ===== -->
           <section id="home" class="hero-section">
-            <a
-        class="btn btn-link"
-        data-bs-toggle="offcanvas"
-        href="#offcanvasExample"
-        data-bs-target="#offcanvasResponsive"
-        aria-controls="offcanvasResponsive"
-        role="button"
-        aria-controls="offcanvasExample"
-        >
-        <i class="fa fa-bars bars-btn" aria-hidden="true"></i>
-           </a>
+            
             <div class="hero-container">
               <h2
                 class="hero__title animate__animated animate__rotateInDownLeft"
@@ -192,6 +199,21 @@
                 I am
                 <span class="">Full stack Developer</span>
               </p>
+            </div>
+          </section>
+
+          <!-- ===== ABOUT ===== -->
+          <section id="about" class="container vh-100 about__container">
+            <div class="abContainer__descr text-start">
+              <h2 class="about__heading">About</h2>
+              <p class="fs-2 lh-md">Hello, World!👋 <br>
+                I am <span class="fw-bold">Herve Claudel Ineza</span>, software engineer in making....
+                Currently pursuing my B.Tech in Computer Science Engineering Spec. in Internet Of Things
+                I am interested in Internet, Data and Internet Of Things. 
+                I like technology, innovation and enjoy working on projects that have a real-world impact</p>
+            </div>
+            <div class="about__imgContainer">
+              <img src="images/Ineza-hero-img-croped.JPG" alt="" class="h-100 w-100">
             </div>
           </section>
       </div>
