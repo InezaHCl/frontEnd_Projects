@@ -42,9 +42,26 @@
     ></script>
   </head>
   <body>
-    <main class="container-fuild text-center">
-      <div class="row vh-100">
-        <div id="side-bar" class="vh-100 d-none d-xl-block col-7 col-md-3">
+    <header>
+
+      <div
+        class="offcanvas offcanvas-start show w-auto text-bg-dark"
+        data-bs-backdrop="static"
+        tabindex="-1"
+        id="offcanvasResponsive"
+        aria-labelledby="offcanvasResponsiveLabel"
+      >
+        <div class="offcanvas-header">
+        <!-- Close btn -->
+          <div class="close-btn d-lg-none">
+            <i class="fa fa-times x-btn" aria-hidden="true"
+            data-bs-dismiss="offcanvas"
+            data-bs-target="#offcanvasResponsive"
+            aria-label="Close"></i>
+          </div>
+     
+        </div>
+        <div class="offcanvas-body d-block text-center">
           <div class="side-bar__imgContainer">
             <img
               src="images/passport-img-ineza.jpg"
@@ -94,7 +111,7 @@
             </ul>
           </div>
 
-          <div class="navContainer text-start">
+          <nav class="navContainer text-start">
             <ul class="nav-links">
               <li>
                 <a href="#home" class="nav-link"
@@ -144,20 +161,27 @@
                 >
               </li>
             </ul>
-          </div>
+          </nav>
         </div>
-        <!-- Menu btn -->
-        <div id="main-container" class="col">
-          <div class="menu-btn d-xl-none">
-            <i class="fa fa-bars bars-btn" aria-hidden="true"></i>
-          </div>
-          <!-- Close btn -->
-          <div class="close-btn d-none d-xl-none">
-            <i class="fa fa-times x-btn" aria-hidden="true"></i>
-          </div>
+      </div>
+
+    </header>
+
+    <main class="container-fuild text-center vh-100">
 
           <!-- ===== Home ===== -->
           <section id="home" class="hero-section">
+            <a
+        class="btn btn-link"
+        data-bs-toggle="offcanvas"
+        href="#offcanvasExample"
+        data-bs-target="#offcanvasResponsive"
+        aria-controls="offcanvasResponsive"
+        role="button"
+        aria-controls="offcanvasExample"
+        >
+        <i class="fa fa-bars bars-btn" aria-hidden="true"></i>
+           </a>
             <div class="hero-container">
               <h2
                 class="hero__title animate__animated animate__rotateInDownLeft"
@@ -170,7 +194,6 @@
               </p>
             </div>
           </section>
-        </div>
       </div>
     </main>
     <script src="script.js"></script>

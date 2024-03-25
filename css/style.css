@@ -43,13 +43,26 @@ body {
   background-color: #fff;
 }
 
-.bars-btn,
-.x-btn {
+.bars-btn {
   position: absolute;
   top: 0;
   left: 0;
   font-size: 2.5rem !important;
   margin: 2rem;
+  padding: 0.5rem 1rem;
+  color: var(--whiteColor);
+  background-color: var(--secondaryColor);
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.x-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 2.5rem !important;
+  margin: 1.5rem;
   padding: 0.5rem 1rem;
   color: var(--whiteColor);
   background-color: var(--secondaryColor);
@@ -154,7 +167,7 @@ h1 {
   line-height: 5.6rem;
 }
 
-#home p {
+.hero-container p {
   font-size: var(--fontSize);
   color: var(--whiteColor);
 }
