@@ -11,9 +11,11 @@
 :root {
   --whiteColor: #fff;
   --blackColor: #000;
+  --blueColor: #173b6c;
   --mainColor: #040b14;
   --secondaryColor: #d6336c;
   --secondaryColor-light: #f06595;
+  --skillsbgColor: #f5f8fd;
 
   --fontSize: 2.5rem;
 
@@ -190,6 +192,7 @@ h1 {
 
 .about__heading {
   display: inline-block;
+  color: var(--blueColor);
   font-size: 3rem;
   padding: 1.5rem 2rem;
   margin-bottom: 2rem;
@@ -208,6 +211,30 @@ h1 {
   font-size: 2rem;
 
   margin-bottom: 1rem;
+}
+
+/**************************/
+/* SKILLS SECTION */
+/**************************/
+.containerSkills {
+  background-color: var(--skillsbgColor);
+}
+
+.skills__webDev li,
+.skills__back-end li {
+  list-style: none;
+}
+
+.skills__webDev li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.skills__back-end li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.about__container {
+  margin-bottom: var(--mbSection);
 }
 
 @media (min-width: 992px) {
