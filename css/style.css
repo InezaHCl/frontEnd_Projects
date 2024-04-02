@@ -440,6 +440,7 @@ h1 {
 
 .card-heading {
   font-size: 2rem;
+  font-weight: 700;
 }
 
 .card-text {
@@ -448,6 +449,44 @@ h1 {
 
 .btn__card {
   font-size: 1.6rem !important;
+}
+
+/****************/
+/* MY SERVICE */
+/****************/
+
+.card__container {
+  padding: 2rem 2rem;
+  padding-bottom: 0;
+  box-shadow: 10px 10px 40px #dee2e6;
+}
+
+.card-head__special {
+  color: var(--secondaryColor);
+}
+
+.img__card {
+  width: 10rem;
+  height: 10rem;
+  background-color: var(--secondaryColor-light);
+  padding: 1.5rem;
+  border-radius: 50%;
+  margin-bottom: 2.5rem;
+}
+
+.img__card2 {
+  border-radius: 60%;
+}
+
+.services__heading {
+  margin-bottom: 4rem;
+  text-decoration: underline;
+}
+
+.card__container__description {
+  font-size: 1.6rem;
+  padding: 2rem 2rem;
+  background-color: #fff;
 }
 
 /*********************/
