@@ -416,6 +416,44 @@ h1 {
   left: -15px;
 }
 
+/*****************/
+/* PROJECTS */
+/*****************/
+
+#projects {
+  background-color: var(--skillsbgColor);
+  margin-bottom: var(--mbSection);
+}
+
+#project_quote {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.author {
+  font-weight: 400;
+}
+
+.project__container1 p {
+  font-size: 1.5rem;
+}
+
+.card-heading {
+  font-size: 2rem;
+}
+
+.card-text {
+  font-size: 1.4rem;
+}
+
+.btn__card {
+  font-size: 1.6rem !important;
+}
+
+/*********************/
+/* MEDIA QUERIES */
+/*********************/
+
 /* Mobile */
 @media (max-width: 576px) {
   .timeline {
