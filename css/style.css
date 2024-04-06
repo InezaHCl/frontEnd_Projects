@@ -498,7 +498,7 @@ h1 {
 /********************/
 
 #contact-me {
-  padding-bottom: 16rem;
+  padding-bottom: 8rem;
 }
 
 .contact__img {
@@ -532,6 +532,42 @@ h1 {
 
 .btn-custom {
   font-size: 2rem !important;
+}
+
+/*****************/
+/* FOOTER */
+/*****************/
+
+.footer__container {
+  color: #fff;
+  background-color: #040b14da;
+  padding: 2rem 1rem;
+}
+
+.footer__addressCont {
+  margin-bottom: 3rem;
+}
+
+.footer__heading {
+  font-size: 2.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.footer__descr {
+  font-size: 1.8rem;
+}
+
+.footer__link:link,
+.footer__link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.footer__link:hover,
+.footer__link:active {
+  border-bottom: solid 3px #4dabf7;
 }
 
 /*********************/
@@ -615,6 +651,20 @@ h1 {
   .btn-custom {
     font-size: 2.5rem !important;
   }
+
+  /* Footer */
+  .footer__heading {
+    font-size: 3.5rem;
+  }
+
+  .footer__link:link,
+  .footer__link:visited {
+    font-size: 2.2rem;
+  }
+
+  .footer__descr {
+    font-size: 2.3rem;
+  }
 }
 /* Desktop */
 @media (min-width: 992px) {
@@ -667,5 +717,19 @@ h1 {
 
   .btn-custom {
     font-size: 1.5rem !important;
+  }
+
+  /* Footer */
+  .footer__heading {
+    font-size: 2rem;
+  }
+
+  .footer__link:link,
+  .footer__link:visited {
+    font-size: 1.6rem;
+  }
+
+  .footer__descr {
+    font-size: 1.4rem;
   }
 }
