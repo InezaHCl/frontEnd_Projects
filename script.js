@@ -1,24 +1,25 @@
 "scrict";
 
-const sideBarContainer = document.querySelector("#side-bar");
-const menuBtn = document.querySelector(".bars-btn");
-const closeBtn = document.querySelector(".close-btn");
+const sectionHeroEl = document.querySelector("#home");
+const movToHomeBtn = document.querySelector(".btnUp-btn");
 
-// menuBtn.addEventListener("click", (e) => {
-//   e.preventDefault();
+// MoveTo Home-Section Button
+const obs = new IntersectionObserver(
+  function (entries) {
+    const entry = entries[0];
+    // console.log(entry);
 
-//   sideBarContainer.classList.remove("d-none");
-//   menuBtn.classList.add("d-none");
+    if (entry.isIntersecting === true) {
+      movToHomeBtn.classList.add("d-none");
+    }
+    if (entry.isIntersecting === false) {
+      movToHomeBtn.classList.remove("d-none");
+    }
+  },
+  {
+    root: null,
+    threshold: 0.8,
+  }
+);
 
-//   closeBtn.classList.remove("d-none");
-//   closeBtn.classList.add("d-lx-none");
-// });
-
-// closeBtn.addEventListener("click", (e) => {
-//   e.preventDefault();
-//   closeBtn.classList.remove("d-lx-none");
-//   closeBtn.classList.add("d-none");
-
-//   menuBtn.classList.remove("d-none");
-//   sideBarContainer.classList.add("d-none");
-// });
+obs.observe(sectionHeroEl);
