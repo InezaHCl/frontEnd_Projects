@@ -210,6 +210,10 @@ h1 {
   margin-bottom: 0.6rem;
 }
 
+.about__section_img {
+  border-radius: 11px;
+}
+
 .about__subHeading {
   font-size: 1.6rem;
 }
