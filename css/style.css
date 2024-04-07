@@ -621,6 +621,16 @@ h1 {
 
 /* Tablet */
 @media (min-width: 768px) {
+  /* Home */
+
+  .hero__title {
+    font-size: 4rem;
+  }
+
+  .hero-container p {
+    font-size: 3.3rem;
+  }
+
   .about__heading {
     font-size: 3.8rem;
   }
@@ -711,6 +721,23 @@ h1 {
     position: absolute;
     top: 0;
     right: 0;
+  }
+
+  /* Home */
+  .hero__title {
+    font-size: 4rem;
+  }
+
+  .hero-container p {
+    font-size: 3rem;
+  }
+
+  .hero-container {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
   }
 
   /* CONTACT ME*/
