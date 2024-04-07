@@ -210,7 +210,7 @@ h1 {
   margin-bottom: 0.6rem;
 }
 
-.about__subContainer p {
+.about__subHeading {
   font-size: 1.6rem;
 }
 
@@ -262,10 +262,14 @@ h1 {
   margin-bottom: var(--mbSection);
 }
 
+.download__btn {
+  font-size: 2rem !important;
+}
+
 .timeline {
   position: relative;
-  max-width: 1200px;
-  margin: 100px auto;
+  max-width: 120rem;
+  margin: 10rem auto;
 }
 
 .containerT {
@@ -617,6 +621,33 @@ h1 {
 
 /* Tablet */
 @media (min-width: 768px) {
+  .about__heading {
+    font-size: 3.8rem;
+  }
+
+  .about__heading__second {
+    font-size: 3rem;
+  }
+
+  .about__subHeading {
+    font-size: 2.5rem;
+  }
+  /* Resume */
+
+  .left-container {
+    padding-left: 3rem;
+  }
+
+  .right-container {
+    padding-right: 3rem;
+  }
+
+  .edu__description {
+    font-size: 2.5rem;
+  }
+
+  /* Contact Me */
+
   .form__mainContainer {
     padding: 2.5rem;
   }
@@ -717,6 +748,33 @@ h1 {
 
   .btn-custom {
     font-size: 1.5rem !important;
+  }
+
+  /* Resume */
+  .about__heading {
+    font-size: 3rem;
+  }
+
+  .about__heading__second {
+    font-size: 2.3rem;
+  }
+
+  .about__subHeading {
+    font-size: 1.8rem;
+  }
+
+  .download__btn {
+    font-size: 1.6rem !important;
+  }
+
+  .timeline {
+    max-width: 120rem;
+    margin: 10rem auto;
+    margin-top: 5rem;
+  }
+
+  .edu__description {
+    font-size: 2rem;
   }
 
   /* Footer */
