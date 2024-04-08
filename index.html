@@ -232,13 +232,13 @@
           <!-- ===== ABOUT ===== -->
 
           <section id="about" class="container about__container">
-            <div class="abContainer__descr text-start">
+            <div class="abContainer__descr">
               <h2 class="about__heading">About</h2>
-              <p class="fs-2 lh-md">
+              <p class="fs-2 lh-md about_description">
                 Hello, World!👋 <br />
                 I am <span class="fw-bold">Herve Claudel Ineza</span>, software
                 engineer in making.... Currently pursuing my B.Tech in Computer
-                Science Engineering Specializing in Internet Of Things. I am
+                Science Engineering, specializing in Internet Of Things. I am
                 interested in Internet, Data and Internet Of Things. I like
                 technology, innovation and enjoy working on projects that have a
                 real-world impact
@@ -264,24 +264,24 @@
                     <li>
                       <span class="fw-bold">BD:</span> Sept/08/every year 🎂
                     </li>
+                    <li><span class="fw-bold">Passion:</span> Reading 📖</li>
+                    <li><span class="fw-bold">Sport:</span> Basketball⛹🏻</li>
                     <li>
-                      <span class="fw-bold">Passion:</span> Basketball⛹🏻 &
-                      Reading 📖
+                      <span class="fw-bold">Native language:</span> Kirundi
                     </li>
                     <li>
-                      <span class="fw-bold">Languages:</span> English, French &
-                      Kirundi
+                      <span class="fw-bold">Others:</span> English & French
                     </li>
                     <li>
-                      <span class="fw-bold">Location📍:</span> Currently based
-                      in Karnataka-India
+                      <span class="fw-bold">Location📍:</span>
+                      Karnataka-India
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
             <!-- SKILLS -->
-            <div class="containerSkills py-5 text-start">
+            <div class="containerSkills py-5">
               <h2 class="about__heading mx-5">Skills</h2>
               <div class="container text-center">
                 <div class="row">
@@ -294,16 +294,16 @@
                           class="progress"
                           role="progressbar"
                           aria-label="Info example"
-                          aria-valuenow="75"
+                          aria-valuenow="100"
                           aria-valuemin="0"
                           aria-valuemax="100"
                           style="height: 18px"
                         >
                           <div
                             class="progress-bar bg-info text-white fs-5"
-                            style="width: 75%"
+                            style="width: 100%"
                           >
-                            75%
+                            100%
                           </div>
                         </div>
                       </li>
@@ -505,10 +505,10 @@
             <br />
 
             <a
-              class="btn btn-primary download__btn mb-5"
+              class="btn btn-outline-primary download__btn mb-5"
               href="/assets/resume/21BTRCO044_HERVE C. INEZA.pdf"
               role="button"
-              download="resume"
+              download="Ineza_resume"
             >
               <i class="fa fa-download" aria-hidden="true"></i>
               Download Resume
@@ -641,7 +641,7 @@
                       </p>
                       <a
                         href="https://omnifood-ineza.netlify.app"
-                        class="btn btn-primary btn__card"
+                        class="btn btn-outline-primary btn__card"
                         >Visit Website</a
                       >
                     </div>
@@ -664,7 +664,7 @@
                       </p>
                       <a
                         href="https://mwl-1.netlify.app"
-                        class="btn btn-primary btn__card"
+                        class="btn btn-outline-primary btn__card"
                         >Visit Website</a
                       >
                     </div>
@@ -688,7 +688,7 @@
                       </p>
                       <a
                         href="https://inezagithub.netlify.app"
-                        class="btn btn-primary btn__card"
+                        class="btn btn-outline-primary btn__card"
                         >Visit Website</a
                       >
                     </div>
@@ -699,72 +699,82 @@
           </section>
 
           <!-- ===== SERVICES -->
-          <section id="myService" class="container myService__container">
-            <h2 class="about__heading__second services__heading">
-              MY <span class="card-head__special">SERVICES</span>
-            </h2>
+          <section
+            id="myService"
+            class="container text-center myService__container"
+          >
+            <h2 class="about__heading">MY SERVICES</h2>
             <div
               class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3"
             >
               <!-- card-1 -->
-              <div class="card__container col mb-4">
-                <div class="card__container__description">
-                  <img
-                    src="/images/web-site.png"
-                    alt="image of a website"
-                    class="img__card"
-                  />
-                  <h3 class="card-heading mb-3">Website Development</h3>
-                  <p>
-                    I employ the latest technologies such as HTML, CSS,
-                    JavaScript, and frameworks like Bootstrap to deliver an
-                    exceptional user experience.
-                  </p>
+              <div class="col mb-4">
+                <div class="card">
+                  <div class="card__container__description">
+                    <img
+                      src="/images/web-site.png"
+                      alt="image of a website"
+                      class="img__card"
+                    />
+                    <div class="card__service__sub">
+                      <h3 class="card-heading mb-3">Website Development</h3>
+                      <p>
+                        I employ the latest technologies such as HTML, CSS,
+                        JavaScript, and frameworks like Bootstrap to deliver an
+                        exceptional user experience.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div class="card__container__deco"></div>
               </div>
               <!-- card-2 -->
-              <div class="card__container col mb-4">
-                <div class="card__container__description">
-                  <img
-                    src="/images/maintenance.png"
-                    alt="image of a website"
-                    class="img__card img__card2"
-                  />
-                  <h3 class="card-heading mb-3">Website Maintenance 🛠️</h3>
-                  <p>
-                    I offer comprehensive website maintenance services to ensure
-                    that your site remains secure, up-to-date, and optimized for
-                    performance.
-                  </p>
+              <div class="col mb-4">
+                <div class="card">
+                  <div class="card__container__description">
+                    <img
+                      src="/images/maintenance.png"
+                      alt="image of a website"
+                      class="img__card img__card2"
+                    />
+                    <div class="card__service__sub">
+                      <h3 class="card-heading mb-3">Website Maintenance 🛠️</h3>
+                      <p>
+                        I offer comprehensive website maintenance services to
+                        ensure that your site remains secure, up-to-date, and
+                        optimized for performance.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div class="card__container__deco"></div>
               </div>
               <!-- card-3 -->
-              <div class="card__container col">
-                <div class="card__container__description">
-                  <img
-                    src="/images/iot-solutions.png"
-                    alt="image of a website"
-                    class="img__card"
-                  />
-                  <h3 class="card-heading mb-3">
-                    Internet Of Things Solutions
-                  </h3>
-                  <p>
-                    I specialize in designing & prototyping IoT devices that
-                    seamlessly integrate with your environment, offering
-                    innovative solutions your businesses
-                  </p>
+              <div class="col">
+                <div class="card">
+                  <div class="card__container__description">
+                    <img
+                      src="/images/iot-solutions.png"
+                      alt="image of a website"
+                      class="img__card"
+                    />
+                    <div class="card__service__sub">
+                      <h3 class="card-heading mb-3">
+                        Internet Of Things Solutions
+                      </h3>
+                      <p>
+                        I specialize in designing & prototyping IoT devices that
+                        seamlessly integrate with your environment, offering
+                        innovative solutions your businesses
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div class="card__container__deco"></div>
               </div>
             </div>
           </section>
 
           <!-- ===== Contact-Me ===== -->
           <section id="contact-me" class="container">
-            <h2 class="about__heading__second contact__heading">Contact Me</h2>
+            <h2 class="about__heading contact__heading">Contact Me</h2>
             <p class="contact__descript">
               Need to get in touch with me? Feel free to reach out using the
               form below with your inquiry, and I'll get back to you as soon as
