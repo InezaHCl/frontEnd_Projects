@@ -129,6 +129,10 @@ h1 {
   margin-bottom: var(--mbContainer) !important;
 }
 
+.nav-icon {
+  font-size: 2.3rem !important;
+}
+
 .nav-link:link,
 .nav-link:visited {
   display: inline-block;
@@ -336,13 +340,13 @@ h1 {
 .containerT i {
   position: absolute;
   top: 3.5rem;
-  width: 4rem;
+  width: 5rem;
   font-size: 4rem;
 
   border-radius: 50%;
-  right: -2.3rem;
+  right: -3.3rem;
   z-index: 10;
-  background-color: var(--bgBlueColor);
+  background-color: #fff;
   margin-top: 5px;
 }
 
@@ -774,7 +778,7 @@ h1 {
   #projects,
   #myService,
   #contact-me {
-    padding: 1.5rem 6rem;
+    padding: 1.5rem 4rem;
   }
 
   /* CONTACT ME*/
