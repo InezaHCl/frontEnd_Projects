@@ -69,18 +69,27 @@
             </div>
 
             <div class="offcanvas-body d-block text-center">
-              <div class="side-bar__imgContainer">
+              <div
+                class="wow animate__backInDown side-bar__imgContainer"
+                data-wow-duration="1.8s"
+              >
                 <img
                   src="images/passport-img-ineza.jpg"
                   alt="image of ineza"
                   class="img-fluid rounded-circle"
                 />
               </div>
-              <h1 class="mb-4">Herve C. Ineza</h1>
+              <h1
+                class="mb-4 wow animate__tada"
+                data-wow-duration="2s"
+                data-wow-delay="5s"
+              >
+                Herve C. Ineza
+              </h1>
 
               <div class="social__linksContainer">
                 <ul class="social__links">
-                  <li>
+                  <li class="wow animate__backInLeft" data-wow-duration="5.8s">
                     <a
                       href="https://www.linkedin.com/in/herve-claudel-ineza-b9781a206"
                       class="social__link rounded-circle"
@@ -92,7 +101,7 @@
                     </a>
                   </li>
 
-                  <li>
+                  <li class="wow animate__backInLeft" data-wow-duration="4.2s">
                     <a
                       href="https://github.com/InezaHCl"
                       class="social__link rounded-circle"
@@ -104,7 +113,7 @@
                     </a>
                   </li>
 
-                  <li>
+                  <li class="wow animate__backInLeft" data-wow-duration="3s">
                     <a
                       href="https://www.instagram.com/ineza_herve?igsh=MWVmb2lpcGxpd2FrcQ=="
                       class="social__link rounded-circle"
@@ -116,7 +125,7 @@
                     </a>
                   </li>
 
-                  <li>
+                  <li class="wow animate__backInLeft" data-wow-duration="1.5s">
                     <a
                       href="https://www.facebook.com/herveclaudel.ineza"
                       class="social__link rounded-circle"
@@ -894,6 +903,17 @@
       </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="/scripts/script.js"></script>
+    <script src="scripts/wow.min.js"></script>
+    <script>
+      const wow = new WOW({
+        boxClass: "wow",
+        animatedClass: "animate__animated",
+        offset: 0,
+        mobile: false,
+        live: true,
+      });
+      wow.init();
+    </script>
   </body>
 </html>
